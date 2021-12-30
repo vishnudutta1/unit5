@@ -1,0 +1,20 @@
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px blue;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 12px;
+    background-color: cornsilk;
+}
+
+.expense_item_desc{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    flex: 1;
+}

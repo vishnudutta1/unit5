@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import ExpenseItem from './components/ExpenseItem';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    <h1>vishnu</h1>
-    <h2>akshay</h2>
-    </div>
+  <div>
+    <h2>Let's start</h2>
+    <ExpenseItem></ExpenseItem>
+  </div>
   );
 }
 
