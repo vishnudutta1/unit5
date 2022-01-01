@@ -1,6 +1,6 @@
 import './operating.css';
 
-function operating(){
+function Operating(){
 
     let title = "car insurance";
     return(
@@ -14,4 +14,4 @@ function operating(){
     )
 }
 
-export default operating;
+export default Operating;
