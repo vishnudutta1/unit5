@@ -13,7 +13,10 @@ class App extends Component {
  {
   
   return (<div>
-    <Greet></Greet>
+    <Greet name = "vishnu"></Greet>
+    <Greet name = "abhi"></Greet>
+    <Greet name = "dheeraj"></Greet>
+    <Greet name = "Anand"></Greet>
     <Welcome></Welcome>
     <Hello></Hello>
     <IntroJSX></IntroJSX>
