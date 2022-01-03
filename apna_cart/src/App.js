@@ -84,7 +84,7 @@ function App() {
           removeItem={removeItem}
         />
       </main>
-      <Footer totalAmount={totalAmount} resetQuantity={resetQuantity} />
+      <Footer totalAmount={totalAmount} resetQuantity={resetQuantity} className="foot" />
     </>
   );
 }
