@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList.js";
-import Footer from "./components/Footer.js";
+
 import AddItem from "./components/AddItem";
 
 function App() {
@@ -84,7 +84,7 @@ function App() {
           removeItem={removeItem}
         />
       </main>
-      <Footer totalAmount={totalAmount} resetQuantity={resetQuantity} className="foot" />
+      
     </>
   );
 }
