@@ -34,6 +34,15 @@ class Counter extends Component {
     }
 
 
+    multiply(){
+        this.setState(
+            {
+                Count:this.state.Count*2
+            }
+        )
+    }
+
+
 
 
 
@@ -44,6 +53,8 @@ class Counter extends Component {
               <h1><button onClick={() => this.increment()}>Increment</button></h1>
               <button onClick={()=>this.reset()}>Reset</button>
               <button onClick={()=>this.decrement()}>Decrement</button>
+
+              <button onClick={()=>this.multiply()}>Multiply By 2</button>
             </div>
         )
     }
