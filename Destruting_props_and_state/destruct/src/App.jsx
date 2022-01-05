@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 import React from 'react';
-import Greet from './components/Greet';
-// import { Component } from 'react';
+// import Greet from './components/Greet';
+ import { Component } from 'react';
+import FunctionClick from './components/FunctionClick';
 
 class App extends Component {
   render()
@@ -12,7 +13,8 @@ class App extends Component {
   
   return (<div>
 
-   <Greet name = 'Vishnu' heroName = 'Developer'></Greet>
+   {/* <Greet name = 'Vishnu' heroName = 'Developer'></Greet> */}
+   <FunctionClick></FunctionClick>
    
   </div>
   );
