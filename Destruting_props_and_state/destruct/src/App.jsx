@@ -4,6 +4,8 @@ import React from 'react';
 // import Greet from './components/Greet';
  import { Component } from 'react';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/classClick';
+import EventBind from './components/EventBind';
 
 class App extends Component {
   render()
@@ -15,6 +17,8 @@ class App extends Component {
 
    {/* <Greet name = 'Vishnu' heroName = 'Developer'></Greet> */}
    <FunctionClick></FunctionClick>
+   <ClassClick></ClassClick>
+   <EventBind></EventBind>
    
   </div>
   );
