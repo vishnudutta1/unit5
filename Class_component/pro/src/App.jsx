@@ -13,13 +13,6 @@ function App() {
     <Greet name = "vishnu">
     <p>We are Best</p>
     </Greet>
-    
-    <Greet name = "dheeraj">
-    <p>we will secure a high package job</p>
-    </Greet>
-    
-  
-   
   </div>
   );
 }
