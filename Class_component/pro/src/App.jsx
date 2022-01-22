@@ -13,6 +13,9 @@ function App() {
     <Greet name = "vishnu">
     <p>We are Best</p>
     </Greet>
+    <Greet name = "dutta">
+    <p>We are Best</p>
+    </Greet>
   </div>
   );
 }
