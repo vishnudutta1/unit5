@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<label htmlFor="Number" id="Text1">Enter First Number :</label>
+<input type="Number"  id="Text" />
+<br />
+
+<label htmlFor="Number" id="Text2">Enter Second Number :</label>
+<input type="Number" id="Text3" />
+
+<br />
+
+<label htmlFor="Number" id="txtresu">Result :</label>
+<input type="Number" id = "txtresult" />
+
+<br />
+
+<button id="clickbtn" type="submit" onclick="vishnu()">Submit</button>
+</body>
+
+
+</html>
+
+
+<script>
+
+function vishnu(){
+
+    let first = parseInt(document.getElementById("Text").value);
+  //  first =  +first
+//console.log(first)
+
+let second = parseInt(document.getElementById("Text3").value);
+//second = +second
+let result = (second + first)
+
+  document.getElementById("txtresult").value = result
+
+console.log( result)
+
+}
+</script>
+
